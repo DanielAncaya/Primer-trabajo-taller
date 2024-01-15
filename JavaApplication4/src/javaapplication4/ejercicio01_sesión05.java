@@ -1,13 +1,27 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+ 
 package javaapplication4;
 
-/**
- *
- * @author danca
- */
+import java.util.Scanner;
+
 public class ejercicio01_sesión05 {
     
+    public static void main(String[] args){
+        
+        int edad;
+        char sexo;
+        
+        Scanner entrada = new Scanner (System.in);
+        System.out.println("Ingrese su edad: ");
+        edad = entrada.nextInt();
+        
+        System.out.println("Ingrese su sexo(): ");
+        sexo = entrada.nextChar();
+        
+        if(edad>=65 || sexo == M){
+                        
+        }
+        
+        
+        
+    }     
 }
