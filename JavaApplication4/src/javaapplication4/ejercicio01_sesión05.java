@@ -14,14 +14,14 @@ public class ejercicio01_sesión05 {
         System.out.println("Ingrese su edad: ");
         edad = entrada.nextInt();
         
-        System.out.println("Ingrese su sexo(): ");
-        sexo = entrada.nextChar();
+        System.out.println("Ingrese su sexo F/M: ");
+        sexo = entrada.next().charAt(0);
         
-        if(edad>=65 || sexo == M){
-                        
-        }
-        
-        
+        boolean resultado = (sexo=='M' && edad>=65) || (sexo=='F' && edad>=60);
+        if(resultado){
+            System.out.print("SÍ se jubila");
+                    }else System.out.println("NO se jubila");     
+               
         
     }     
 }
